@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	char a[100],b[100]="sunday",c[100]="saturday";
+	char a[100],b[100]="Sunday",c[100]="Saturday";
 	gets(a);
 	if(strcmp(a,b)==0)
 	{
