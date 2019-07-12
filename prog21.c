@@ -9,6 +9,8 @@ int main()
 	     printf("yes");
 	else if(b==d && b==f)
 	     printf("yes");
+	else if(a=b && c==d && e==f)
+		printf("yes");
 	else
 	      printf("no");
 	return 0;	  	      
