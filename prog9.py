@@ -1,6 +1,6 @@
 l,r=map(int,input().split())
 a=[]
-for i in range(l+1,r):
+for i in range(l,r+1):
     c=0
     for j in range(2,i//2+1):
         if i%j==0:
