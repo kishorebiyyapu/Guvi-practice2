@@ -5,4 +5,4 @@ b=math.sin(c)
 if b>0 and b<1:
     print(round(b,1))
 else:
-    print(b)
+    print(round(b))
