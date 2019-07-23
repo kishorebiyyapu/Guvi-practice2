@@ -1,9 +1,9 @@
 N,K=map(int,input().split())
 a=list(i for i in input().split()[:N])
-s=0
+d=0
 for i in a:
-    s=s+int(i)
-if s==K:
+    d=d+int(i)
+if d==K:
     print("yes")
 else:
     print("no")
