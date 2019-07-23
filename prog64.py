@@ -1,5 +1,9 @@
 N,K=map(int,input().split())
 a=list(int(i) for i in input().split()[:N])
+b=[]
 for i in a:
     if i<K:
-        print(i,end=" ")
+        b.append(i)
+b.sort()
+for i in b:
+    print(i,end=" ")
