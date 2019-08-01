@@ -1,3 +1,3 @@
 S=[i for i in input().split()]
-X=input()
-print(S.index(X)+1)
+x=input()
+print(S.index(x)+1)
