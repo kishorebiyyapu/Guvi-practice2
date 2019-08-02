@@ -1,8 +1,8 @@
 N=int(input())
-b=[]
+c=[]
 a=[int(i) for i in input().split()[:N]]
 for i in a:
-    if i not in b:
-        b.append(i)
-for i in b:
+    if i not in c:
+        c.append(i)
+for i in c:
     print(i,end=' ')
