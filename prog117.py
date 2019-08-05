@@ -1,4 +1,4 @@
-s=[i for i in input()]
+s=[j for j in input()]
 s=s[::-1]
 a=[]
 for i in s:
