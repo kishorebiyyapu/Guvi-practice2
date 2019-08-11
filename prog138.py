@@ -1,7 +1,7 @@
 import math
-N=int(input())
-a=math.log(N,2)
-if math.ceil(a)==math.floor(a):
+m=int(input())
+z=math.log(m,2)
+if math.ceil(z)==math.floor(z):
     print("yes")
 else:
     print("no")
